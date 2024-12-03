@@ -1,4 +1,4 @@
-class BillKillGraph{
+class ExpenseEasegraph{
     constructor(){
         this.adj = new Map();
     }
@@ -71,7 +71,7 @@ class BillKillGraph{
     }
 }
 
-const graph = new BillKillGraph();
+const graph = new ExpenseEasegraph();
 
 // graph.addTransaction("rahul", "shubham", 1000);
 // graph.addTransaction("rahul", "mohan", 500);
